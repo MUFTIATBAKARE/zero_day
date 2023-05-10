@@ -1,6 +1,7 @@
 ### Using vagrant in local machine
 
 #### This repo shows how to get started with vagrant in **local machine**
+<<<<<<< HEAD
 
 Steps to follow on Windows
 
@@ -18,3 +19,5 @@ To start virtual machine: vagrant up
  vagrant ssh
  vagrant status
  vagrant stop 
+=======
+>>>>>>> 669f9716cff41e2e61e8267a1f3aabcc52017540
