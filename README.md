@@ -2,12 +2,19 @@
 
 #### This repo shows how to get started with vagrant in **local machine**
 
-Vagrant Intro repo [link] (https://github.com/MUFTIATBAKARE/zero_day.git).
+Steps to follow on Windows
 
-Here is a link to my [LinkedIn account][1] and [Github account][2]
-[1]: https://Linkedin.com/in/muftiat-bakare
-[2]: https://github.com/MUFTIATBAKARE
-
-or
-
-click the image [![](/linkedin.png)](https://Linkedin.com/in/muftiat-bakare) 
+Download VirtualBox
+Install VirtualBox
+Download Vagrant
+Install Vagrant
+Open the command prompt
+Add the Ubuntu 20.04 (Focal) image to your box list:
+vagrant box add ubuntu/focal64
+Create your first virtual machine: 
+vagrant init ubuntu/focal64
+To avoid issue with the last version of Vagrant (2.2.4 or latest): vagrant plugin install vagrant-vbguest
+To start virtual machine: vagrant up
+ vagrant ssh
+ vagrant status
+ vagrant stop 
